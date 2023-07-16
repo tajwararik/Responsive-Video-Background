@@ -98,7 +98,7 @@ a:hover::after {
 }
 
 input[type="text"] {
-    width: 10%;
+    width: 15%;
     height: 3rem;
     background-color: rgba(255, 255, 255, 0.8);
     outline: none;
@@ -152,4 +152,185 @@ button:hover {
     background-color: rgba(56, 107, 187, 0.8);
     color: #fff;
     transform: scale(1.0015);
+}
+
+@media (max-width: 1690px) {
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1510px) {
+    button {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 1320px) {
+    input[type="text"] {
+        width: 20%;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1205px) {
+    .content h1 {
+        font-size: 7rem;
+    }
+
+    input[type="text"] {
+        width: 20%;
+    }
+
+    button {
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 1060px) {
+    a {
+        font-size: 1.15rem;
+    }
+    
+    .content h1 {
+        font-size: 6rem;
+    }
+
+    input[type="text"] {
+        width: 20%;
+    }
+
+    input[type="text"]::placeholder {
+        font-size: 0.65rem;
+    }
+
+    button {
+        font-size: 0.55rem;
+    }
+}
+
+@media (max-width: 850px) {
+    a {
+        font-size: 1rem;
+    }
+
+    .content h1 {
+        font-size: 5rem;
+    }
+
+    input[type="text"] {
+        width: 25%;
+    }
+
+    input[type="text"]:focus {
+        width: 40%;
+    } 
+
+    input[type="text"]::placeholder {
+        font-size: 0.65rem;
+    }
+
+    button {
+        width: 10%;
+        height: 2.5rem;
+        font-size: 0.55rem;
+    }
+}
+
+@media (max-width: 650px) {
+    a {
+        font-size: 0.85rem;
+    }
+
+    .content h1 {
+        font-size: 4rem;
+    }
+
+    input[type="text"] {
+        width: 30%;
+        height: 2.5rem;
+    }
+
+    input[type="text"]:focus {
+        width: 50%;
+    } 
+
+    input[type="text"]::placeholder {
+        font-size: 0.65rem;
+    }
+
+    button {
+        width: 15%;
+        height: 2rem;
+        font-size: 0.55rem;
+    }
+}
+
+@media (max-width: 540px) {
+    a {
+        font-size: 0.7rem;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    input[type="text"] {
+        width: 35%;
+        height: 2.5rem;
+    }
+
+    input[type="text"]:focus {
+        width: 50%;
+    } 
+
+    input[type="text"]::placeholder {
+        font-size: 0.65rem;
+    }
+
+    button {
+        width: 15%;
+        height: 2rem;
+        font-size: 0.55rem;
+    }
+}
+
+@media (max-width: 460px) and (min-width:360px) {
+ul {
+    gap: 0.4rem;
+}
+
+    a {
+        font-size: 0.65rem;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    input[type="text"] {
+        width: 35%;
+        height: 2rem;
+    }
+
+    input[type="text"]:focus {
+        width: 55%;
+    } 
+
+    input[type="text"]::placeholder {
+        font-size: 0.45rem;
+    }
+
+    input[type="text"]:focus::placeholder {
+        font-size: 0.8rem;
+    }
+
+    button {
+        width: 20%;
+        height: 1.5rem;
+        font-size: 0.55rem;
+    }
 }
